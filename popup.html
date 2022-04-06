@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: #110f18;
+            font-size: small;
+            font-family: sans-serif;
+        }
+        button {
+            margin: 5px;
+            width: 80px;
+            background: #d3d3d3;
+            border: 3px solid orange;
+            border-radius: 50vh;
+        }
+        #list {
+            width: 500px;
+            height: 200px;
+            overflow: scroll;
+            white-space: nowrap;
+        }
+        a:link {
+            color: #279dcc;
+        }
+        a:visited {
+            color: #16628d;
+        }
+    </style>
+</head>
+<body>
+    <button id="add_btn">Add</button>
+    <button id="remove_btn">Remove</button>
+    <button id="checkAll_btn">CheckAll</button>
+    <button id="save_btn">Save</button>
+
+    <script src="popup.js"></script>
+    <div id="list">
+    </div>
+</body>
+</html>
